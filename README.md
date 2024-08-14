@@ -40,3 +40,27 @@ Ensure you have the following installed:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Anhad928/ai-resume-builder-main.git
+
+2. **Navigate into the project directory:**
+   ```bash
+   cd ai-resume-builder-main
+
+3. **Install dependencies:**
+   ```bash
+   npm install
+   or yarn install
+
+4. **Create a .env file and add the necessary environment variables:**
+   ```bash
+   VITE_BACKEND_URL=http://localhost:1337
+   VITE_CLERK_FRONTEND_API=your_clerk_frontend_api
+
+5. **Start the development server:**
+   ```bash
+   npm run dev
+   or yarn dev
+
+6. **Access the application:**
+   ```bash
+   http://localhost:5170
+
